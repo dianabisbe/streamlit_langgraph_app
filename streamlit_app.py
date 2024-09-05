@@ -18,7 +18,7 @@ for message in st.session_state['history']:
 
 if user_input:
     with st.spinner("Pensando..."):
-        response = requests.post("http://localhost:8000/invoke",
+        response = requests.post("https://my-app-1001072323049.us-central1.run.app/invoke",
                          json={"query": user_input},
                          timeout=10)
 
