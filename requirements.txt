@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+langchain
+langgraph
+streamlit
+faiss-cpu
+langchain-openai
+langchain-core
+langchain-community
+langchain-experimental
+load_dotenv
+pypdf
+langsmith
+requests
+wikipedia
+
+
